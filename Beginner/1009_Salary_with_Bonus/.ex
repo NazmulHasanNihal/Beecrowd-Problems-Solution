@@ -1,0 +1,5 @@
+name = IO.gets("") |> String.trim()
+salary = IO.gets("") |> String.trim() |> String.to_float()
+sold = IO.gets("") |> String.trim() |> String.to_float()
+salary = salary + (sold * 0.15)
+formatted_salary = :io.format("TOTAL = R$ ~.2f~n", [salary])
