@@ -1,0 +1,6 @@
+a,b,c = io.read("*n"),io.read("*n"),io.read("*n")
+io.write(string.format('TRIANGULO: %.3f', (a * c) / 2),'\n')
+io.write(string.format('CIRCULO: %.3f', c * c * 3.14159),'\n')
+io.write(string.format('TRAPEZIO: %.3f', ((a + b) / 2) * c),'\n')
+io.write(string.format('QUADRADO: %.3f', b * b),'\n')
+io.write(string.format('RETANGULO: %.3f', a * b),'\n')
