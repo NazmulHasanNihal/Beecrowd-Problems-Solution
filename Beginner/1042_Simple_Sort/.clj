@@ -1,0 +1,11 @@
+(require '[clojure.string :as str])
+(def line (str/split (read-line) #" "))
+(def x (Integer/parseInt (get line 0)))
+(def y (Integer/parseInt (get line 1)))
+(def z (Integer/parseInt (get line 2)))
+(let [lista [x y z]]
+(doseq [elem (sort lista)] (println elem))
+(println)
+(println x)
+(println y)
+(println z))
