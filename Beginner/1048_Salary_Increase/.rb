@@ -1,0 +1,19 @@
+n= gets.to_f
+
+ if n <= 400.0
+    puts ("Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: 15 %\n" % [n * 1.15, n * 0.15])
+  elsif n <= 800.0
+    puts ("Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: 12 %\n" % [n * 1.12, n * 0.12])
+  elsif n <= 1200.0
+    puts ("Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: 10 %\n" % [n * 1.10, n * 0.10])
+  elsif n <= 2000.0
+    puts ("Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: 7 %\n" % [n * 1.07, n * 0.07])
+  else
+    puts ("Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: 4 %\n" % [n * 1.04, n * 0.04])
+
+
+
+
+
+
+  end
