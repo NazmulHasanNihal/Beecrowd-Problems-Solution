@@ -3,5 +3,8 @@
         "iostream": "cpp",
         "random": "cpp",
         "stdio.h": "c"
+    },
+    "files.watcherExclude": {
+        "**/target": true
     }
 }

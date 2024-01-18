@@ -1,0 +1,59 @@
+2024.01.17 17:25:28 INFO  Started: Metals version 1.2.0 in folders 'G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner' for client Visual Studio Code 1.85.1.
+2024.01.17 17:25:28 INFO  time: initialize in 0.13s
+2024.01.17 17:25:42 WARN  Build server is not auto-connectable.
+2024.01.17 17:25:42 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.java
+2024.01.17 17:25:42 ERROR Can't run javac on G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.java with options: [-cp
+C:\Users\USER\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\sourcegraph\semanticdb-javac\0.9.8\semanticdb-javac-0.9.8.jar
+-d
+C:\Users\USER\AppData\Local\Temp\metals-javac-semanticdb2782039358740436916\target
+-Xplugin:semanticdb -sourceroot:G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers -targetroot:C:\Users\USER\AppData\Local\Temp\metals-javac-semanticdb2782039358740436916\target]
+java.lang.NullPointerException
+	at scala.meta.internal.pc.JavaMetalsGlobal$.makeFileObject(JavaMetalsGlobal.scala:47)
+	at scala.meta.internal.metals.JavaInteractiveSemanticdb.textDocument(JavaInteractiveSemanticdb.scala:73)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$compile$2(InteractiveSemanticdbs.scala:130)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:130)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$4(InteractiveSemanticdbs.scala:91)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:91)
+	at java.util.HashMap.compute(null)
+	at java.util.Collections$SynchronizedMap.compute(null)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:82)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:53)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$didOpen$3(MetalsLspService.scala:1063)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2024.01.17 17:25:42 WARN  Running javac-semanticdb failed for file:///G:/Other%20computers/My%20Computer/My%20Code/Beecrowd_Problems/Beecrowd_Problems_Solution/Beecrowd_Problems_Solution/Beginner/1070_Six_Odd_Numbers/.java. Output:
+
+2024.01.17 17:25:45 WARN  no build tool detected in workspace 'G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.01.17 17:26:03 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.sc
+2024.01.17 17:26:08 INFO  no build target found for G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.17 17:26:08 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.sc
+2024.01.17 17:26:11 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.sc
+2024.01.17 17:26:12 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.sc
+2024.01.17 17:26:17 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.sc
+2024.01.17 17:26:22 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.sc
+2024.01.17 17:26:23 INFO  time: code lens generation in 21s
+2024.01.17 17:26:23 INFO  time: code lens generation in 21s
+2024.01.17 17:26:23 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1070_Six_Odd_Numbers\.sc
+Jan 17, 2024 5:26:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.01.17 17:41:59 INFO  Shutting down server
+2024.01.17 17:41:59 INFO  shutting down Metals
+2024.01.17 17:42:00 WARN  Error requesting Scala script import
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2024.01.17 17:41:59 INFO  Exiting server
