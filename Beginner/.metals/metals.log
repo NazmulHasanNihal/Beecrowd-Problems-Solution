@@ -57,3 +57,21 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.lang.Thread.run(null)
 
 2024.01.17 17:41:59 INFO  Exiting server
+2024.01.18 09:45:14 INFO  Started: Metals version 1.2.0 in folders 'G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner' for client Visual Studio Code 1.85.1.
+2024.01.18 09:45:15 INFO  time: initialize in 0.12s
+Jan 18, 2024 9:45:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jan 18, 2024 9:45:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.01.18 09:45:58 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1071_Sum_of_Consecutive_Odd_Number_I\.sc
+2024.01.18 09:46:13 INFO  no build target found for G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1071_Sum_of_Consecutive_Odd_Number_I\.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.18 09:46:18 WARN  Build server is not auto-connectable.
+2024.01.18 09:46:18 WARN  no build target for: G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner\1071_Sum_of_Consecutive_Odd_Number_I\.java
+2024.01.18 09:46:33 WARN  no build tool detected in workspace 'G:\Other computers\My Computer\My Code\Beecrowd_Problems\Beecrowd_Problems_Solution\Beecrowd_Problems_Solution\Beginner'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.01.18 09:46:37 INFO  time: code lens generation in 19s
+2024.01.18 09:46:38 WARN  Running javac-semanticdb failed for file:///G:/Other%20computers/My%20Computer/My%20Code/Beecrowd_Problems/Beecrowd_Problems_Solution/Beecrowd_Problems_Solution/Beginner/1071_Sum_of_Consecutive_Odd_Number_I/.java. Output:
+
+2024.01.18 09:46:38 INFO  time: code lens generation in 20s
+2024.01.18 09:46:39 INFO  time: code lens generation in 20s
+2024.01.18 09:49:00 INFO  Shutting down server
+2024.01.18 09:49:00 INFO  shutting down Metals
