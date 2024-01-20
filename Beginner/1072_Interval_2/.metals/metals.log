@@ -1,0 +1,14 @@
+2024.01.18 10:06:19 INFO  Started: Metals version 1.2.0 in folders 'F:\New folder\1072_Interval_2' for client Visual Studio Code 1.85.1.
+2024.01.18 10:06:19 INFO  time: initialize in 0.51s
+2024.01.18 10:06:30 WARN  no build tool detected in workspace 'F:\New folder\1072_Interval_2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.01.18 10:06:30 WARN  Build server is not auto-connectable.
+2024.01.18 10:08:02 WARN  no build target for: F:\New folder\1072_Interval_2\.sc
+2024.01.18 10:08:16 INFO  no build target found for F:\New folder\1072_Interval_2\.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.18 10:08:29 INFO  time: code lens generation in 28s
+2024.01.18 10:08:29 INFO  time: code lens generation in 28s
+2024.01.18 10:08:29 WARN  no build target for: F:\New folder\1072_Interval_2\.sc
+Jan 18, 2024 10:08:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.01.18 10:20:20 INFO  Shutting down server
+2024.01.18 10:20:20 INFO  shutting down Metals
+2024.01.18 10:20:20 INFO  Exiting server
